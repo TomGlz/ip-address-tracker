@@ -4,7 +4,6 @@ const resultLocation = document.querySelector("#resultLocation");
 const resultTime = document.querySelector("#resultTime");
 const resultIsp = document.querySelector("#resultIsp");
 const backblue = document.querySelector(".back-blue");
-console.log(backblue.clientHeight)
 window.addEventListener("load", () => {
     document.getElementById("loading").style.display = "none";
     adressRequest("");
